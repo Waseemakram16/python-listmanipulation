@@ -1,0 +1,17 @@
+lm = ListManipulator()
+lm.add_elements([1, 2, 3, 4, 3, 2, 1])
+print("Original list:", lm.get_list())
+
+lm.remove_duplicates()
+print("List after removing duplicates:", lm.get_list())
+
+lm.reverse_list()
+print("Reversed list:", lm.get_list())
+
+lm.sort_list()
+print("Sorted list:", lm.get_list())
+
+print("Unique elements:", lm.get_unique_elements())
+
+lm.remove_element(2)
+print("List after removing element '2':", lm.get_list())
